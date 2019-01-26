@@ -1,30 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Oh my blog!</title>
-    </head>
-    <body>
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>BLOG</li>
-            <li>CONTACT</li>
-        </ul>
+
+<head>
+    <title>Oh my blog!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <!--
+            <ul>
+                <li>HOME |</li>
+                <li>ABOUT |</li>
+                <li>BLOG |</li>
+                <li>CONTACT |</li>
+            </ul>
+-->
         <h1>Welcome to my page</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque facilis incidunt velit harum recusandae temporibus omnis ex deserunt numquam repudiandae saepe, sed accusamus blanditiis quaerat vel tempora. Culpa, rem, reprehenderit!</p>
-        
+
         <h1>ABOUT</h1>
         <img src="" alt="">
         <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta ipsa, animi quas vero praesentium numquam, maxime asperiores, unde corporis adipisci, nam accusantium voluptate. Optio commodi repudiandae deleniti expedita perspiciatis!</P>
-        
+
         <h1>PRODUCT</h1>
         <img src="" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptas mollitia ducimus dolorem iste necessitatibus saepe iure recusandae aut excepturi rerum, perspiciatis ratione qui sint quibusdam provident, harum quod. Quisquam.
         </p>
-        
+
         <h1>BLOG</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi rerum ipsum totam odio atque unde, suscipit, eius iure, quod, odit labore obcaecati ex veniam hic quis modi quibusdam sequi ipsa.</p>
-        
+
         <h1>CONTACT</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dignissimos facere possimus perspiciatis animi maxime ut, consequuntur doloremque, harum ipsam. Blanditiis eaque commodi cupiditate dicta reprehenderit, ut sunt sit suscipit.</p>
         <h1>PRODUCT</h1>
@@ -49,39 +91,41 @@
                 <td>red</td>
                 <td>100</td>
             </tr>
-            
+
         </table>
+
         <p>
             <img src="img/download.jpg" alt="">
         </p>
         <hr>
-        
-        
+
+
         <form action="">
-        <p>
-            nama:
-            <input type="text">
-        </p>
-        <p>
-            email:
-            <input type="text">
-        </p>
-        <p>
-            subject:
-            <input type="text" name="" id="">
-        </p>
-        <p>
-            message:
-            <input type="text" name="" id="">
-        </p>
-        <p>
-            Message: <br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </p>
-        <p>
-            <button>send</button>
-        </p>
-        </form>    
-       </body>
-        
+            <p>
+                nama:
+                <input type="text">
+            </p>
+            <p>
+                email:
+                <input type="text">
+            </p>
+            <p>
+                subject:
+                <input type="text" name="" id="">
+            </p>
+            <p>
+                message:
+                <input type="text" name="" id="">
+            </p>
+            <p>
+                Message: <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <button>send</button>
+            </p>
+        </form>
+    </div>
+</body>
+
 </html>
